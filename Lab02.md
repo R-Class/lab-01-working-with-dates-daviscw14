@@ -14,13 +14,8 @@ abline( h=0, lty=2, col="gray" )
 
 ``` r
 # create a directory for your images
-setwd("/Users/Tenma")
+
 dir.create("gifs")
-```
-
-    ## Warning in dir.create("gifs"): 'gifs' already exists
-
-``` r
 setwd("gifs")
 
 library( animation )
